@@ -1,0 +1,28 @@
+{
+  "name": "Hwid-Node.js",
+  "version": "1.0.0",
+  "description": "Node.JS Hwid System",
+  "main": "app.js",
+  "homepage": "https://github.com/SwenenzY",
+  "author": {
+    "name": "SwenenzY"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.0",
+    "http2": "^3.3.7",
+    "js-base64": "^2.5.1",
+    "node-gyp": "^6.0.1",
+    "node-superfetch": "^0.1.9"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "repository": {
+    "url": "https://github.com/editlater"
+  },
+  "license": "MIT"
+}
