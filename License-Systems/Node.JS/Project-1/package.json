@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Node.JS Hwid System",
   "main": "app.js",
-  "homepage": "https://github.com/SwenenzY",
+  "homepage": "https://swenenzy.com",
   "author": {
     "name": "SwenenzY"
   },
@@ -22,7 +22,7 @@
     "node": "9.x"
   },
   "repository": {
-    "url": "https://github.com/editlater"
+    "url": "https://github.com/SwenenzY/Hwid-System/"
   },
   "license": "MIT"
 }
