@@ -1,5 +1,5 @@
 
-# Welcome - CPP (Example 1)
+# Welcome - CSharp - ConsoleApp (Example 1)
 **Thanks for visiting this repo.**	
 
 in this example, connecting to the web server with c ++
@@ -10,9 +10,9 @@ For simple use, you can copy Helpers.cs
 
 Algorithm;
 
- 1. Getting CPU ID (https://github.com/SwenenzY/WMIPlus)
- 2. Getting Web Response (https://github.com/SwenenzY/SimpleHttpRequest)
- 3. Parsing Web Response (https://github.com/SwenenzY/JsonExample && https://github.com/nlohmann/json/)
+ 1. Getting CPU ID
+ 2. Getting Web Response
+ 3. Parsing Web Response 
  4. Finish
 
 Example 2 (Spoiler) : MD5 (Crypto) , more HWID elements, a little reverse engineering protection, XOR.
