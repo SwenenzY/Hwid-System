@@ -15,8 +15,6 @@ License Servers;
 
 	Example 1;
 	* Node.JS -> Done 
-	* PHP -> Not yet
-	* PHP Detailed (Admin panel etc.)  -> Not yet
 Programs;
 
 	Example 1;
