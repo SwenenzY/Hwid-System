@@ -21,6 +21,9 @@ App.get("/", (request, response) => {
  
 /*
  * license for this project is manually defined
+ * you can do anything you want instead of key
+ * const Data = { Keys : [ "CPUID" , "CPUID2" ] };
+ * const Data = { Keys : [ "CryptoID" , "CryptoID2", "CryptoID3" ] };
  */
 App.get("/list", (Request, Response) => {
 
