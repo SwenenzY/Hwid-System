@@ -3,7 +3,7 @@
 
 in this example, connecting to the web server with c ++
 
-License element is cpu id, server is local.
+License element is cpu id, server is local(Node.JS Example 1 & You can edit server line:43).
 
 Algorithm;
 
