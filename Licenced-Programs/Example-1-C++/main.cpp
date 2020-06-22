@@ -9,7 +9,7 @@
 #include <comdef.h>
 #include <Wbemidl.h>
 
-#include "packages/nlohmann.json.3.7.3/build/native/include/nlohmann/json.hpp"
+#include "packages/nlohmann.json.3.7.3/build/native/include/nlohmann/json.hpp" // JSON
 
 #pragma comment(lib, "wbemuuid.lib")
 #define CRED_MAX_USERNAME_LENGTH            513
@@ -128,7 +128,7 @@ VARIANT GetCpu()
 	pLoc->Release();
 	pEnumerator->Release();
 	if (pclsObj != NULL)
-		pclsObj->Release();
+	pclsObj->Release();
 	CoUninitialize();
 	cin.get();
 
@@ -146,26 +146,26 @@ string bstr_to_str(BSTR source) {
 
 int main() {
 
-	VARIANT CpuID = GetCpu();
-	string CpuIDStr = bstr_to_str(CpuID.bstrVal);
-	std::cout << "CPU ID : " << CpuIDStr << endl; 
-    std::string LicenseString = GetLicense();
+    VARIANT CpuID = GetCpu(); // Getting CPU ID
+    string CpuIDStr = bstr_to_str(CpuID.bstrVal); // Convert variant to string
+    std::cout << "CPU ID : " << CpuIDStr << endl;  // print cpu id 
+    std::string LicenseString = GetLicense(); // Getting response from web server
 	
-    auto Json = json::parse(LicenseString);
-    bool Status = false;
+    auto Json = json::parse(LicenseString); // Parsing response
+    bool Status = false; // Define Status 
 
-    for (const auto& element : Json["Keys"])
+    for (const auto& element : Json["Keys"]) // Search ID in json
     {
-        if (element == CpuIDStr) {
+        if (element == CpuIDStr) { // id == id
             Status = true;
             break;
         }
     }
 
-    if (Status) {
+    if (Status) { 
         std::cout << "Hi" << std::endl;
     }
 
-	system("pause");
+    system("pause");
 }
 
