@@ -1,6 +1,8 @@
 # Welcome - Node.JS (Example 1)
 **Thanks for visiting this repo.**	
+
 In this example we create a simple web server with node.js.
+
 *Licenses are added manually. As I said, a simple example*
 Using Modules;
  - Http
