@@ -35,7 +35,12 @@ Programs;
 
 **Stay follow!**
 
-    Website : https://swenenzy.com
-    Discord : SwenenzY#0001
-    Open Source ❤️ SwenenzY
+	References;
+	github.com/nlohmann/ -> Json Parsing for C++
+	
+	Website : swenenzy.com
+	Discord : SwenenzY#0001
+	Open Source ❤️ SwenenzY
+    
+
 
