@@ -15,8 +15,6 @@ License Servers;
 
 	Example 1;
 	* Node.JS -> Done 
-	* PHP -> Not yet
-	* PHP Detailed (Admin panel etc.)  -> Not yet
 Programs;
 
 	Example 1;
@@ -35,7 +33,12 @@ Programs;
 
 **Stay follow!**
 
-    Website : https://swenenzy.com
-    Discord : SwenenzY#0001
-    Open Source ❤️ SwenenzY
+	References;
+	github.com/nlohmann/ -> Json Parsing for C++
+	
+	Website : swenenzy.com
+	Discord : SwenenzY#0001
+	Open Source ❤️ SwenenzY
+    
+
 
