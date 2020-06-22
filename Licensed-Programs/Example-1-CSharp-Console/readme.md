@@ -2,7 +2,7 @@
 # Welcome - CSharp - ConsoleApp (Example 1)
 **Thanks for visiting this repo.**	
 
-in this example, connecting to the web server with c ++
+in this example, connecting to the web server with c #
 
 License element is cpu id, server is local(Node.JS Example 1 & You can edit server program.cs line:10 ).
 
