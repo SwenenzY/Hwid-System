@@ -1,9 +1,13 @@
 
 # Welcome - Hwid System
 
-**Thanks for visiting this repo.**	
---
+## **Thanks for visiting this repo.**
+
 Our goal in this repository is to develop license systems, it is completely open source. My goal is to teach people, not money.
+
+If you want to help me please contact me, if you have questions or comments please let me know.
+
+If you get an error, please write to me.
 
 *Current systems*
 -
